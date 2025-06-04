@@ -6,13 +6,15 @@ const Navbar = () => {
     { name: "Services", path: "/service" },
     { name: "Our Work", path: "/our-work" },
     { name: "About Us", path: "/about" },
-    { name: "Insights", path: "/insights" },
     { name: "Contact", path: "/contact" }
   ];
 
   return (
     <div className="fixed z-[999] w-full px-20 py-10 font-['Montserrat'] flex items-center justify-between">
-      <div className="logo special text-xl font-extrabold">AYUDA🌱</div>
+      <Link to="/" className="logo special text-xl font-extrabold">
+        AYUDA🌱
+      </Link>
+
       <div className="links flex gap-10">
         {links.map((link, index) => (
           <Link 

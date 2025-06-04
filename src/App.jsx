@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import LocomotiveScroll from 'locomotive-scroll';
 import Home from './components/Home'
 
-
+import Auth from './pages/Auth.jsx';
 import SignUp from './Pages/SignUp.jsx';
 import Login from './Pages/Login.jsx';
 import About from './pages/about.jsx';
@@ -27,15 +27,14 @@ const App = () => {
 }, []);
 
 return (
-    <Routes>
-      <Route path="/" element={user ? <Home /> : <Login />} />
-      <Route path="/signup" element={<SignUp />} />
-      <Route path="/login" element={<Login />} />
-      <Route path="/about" element={<About />} />
-      <Route path="/service" element={<Services />} />
-      <Route path='/our-work' element={<Ours/>} />
-      <Route path='/contact' element={<Contact/>} />
-  </Routes>
+<Routes>
+  <Route path="/" element={user ? <Home /> : <Auth />} />
+  <Route path="/auth" element={<Auth />} />
+  <Route path="/about" element={<About />} />
+  <Route path="/service" element={<Services />} />
+  <Route path='/our-work' element={<Ours />} />
+  <Route path='/contact' element={<Contact />} />
+</Routes>
 );
 }
 
