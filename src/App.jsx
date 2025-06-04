@@ -3,7 +3,7 @@ import LocomotiveScroll from 'locomotive-scroll';
 import Home from './components/Home'
 
 import Auth from './pages/Auth.jsx';
-import About from './pages/about.jsx';
+import About from './pages/About.jsx';
 import Services from './pages/Services.jsx';
 import Ours from './pages/Our-work.jsx';
 import Contact from './pages/Contact.jsx';

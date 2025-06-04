@@ -1,6 +1,6 @@
 import React from 'react';
 
-const About = () => {
+const Abt = () => {
     return (
         <div data-scroll data-scroll-section data-scroll-speed="-0.1" className='w-full -mt-[10vw] py-20 bg-[#CDEA68] rounded-t-[1.5vw] text-black'>
             <h1 className='pt-5 pl-20 pb-15 font-["Montserrat"] m-0 text-[3.2vw] font-medium tracking-tigher scale-y-110 leading-[4vw]'>Ayuda is a modern Ayurvedic platform for conscious individuals and health-focused businesses seeking personalized remedies, simplified healing, and science-backed wellness.</h1>
@@ -32,4 +32,4 @@ const About = () => {
     );
 }
 
-export default About;
+export default Abt;

@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import Landing from '../components/Landing';
 import Marquee from '../components/Marquee';
-import About from '../components/About';
+import About from './Abt';
 import Eyes from '../components/Eyes';
 import Featured from '../components/Featured';
 import Cards from '../components/Cards';
